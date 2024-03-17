@@ -15,7 +15,7 @@ podman machine start
 
 Par facilité on exécute toutes les commandes depuis un conteneur.
 
-Depuis le répertoire racine de ce repo git :
+Depuis le répertoire racine de ce repo git (attention syntaxe powershell `${PWD}`...) :
 ```
 podman run -it -v ${PWD}:/pom-to-prop-value -p 8080:8080 eclipse-temurin:17-jdk-alpine sh
 ```
